@@ -1,13 +1,13 @@
 #include <stdio.h>
 int main()
 {
-	int i = 0, a[10];
+	int i = 0, a[110];
 
 	do
 	{
 		scanf("%d", &a[i]);
 		i++;
-	} while (i < 10);
+	} while (i < 110);
 
 	i = 0;
 
@@ -15,7 +15,7 @@ int main()
 	{
 		printf("%d ", a[i]);
 		i++;
-	} while (i < 10);
+	} while (i < 110);
 
 	return 0;
 }
