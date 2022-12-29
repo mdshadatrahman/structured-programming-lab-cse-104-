@@ -1,8 +1,7 @@
 #include <stdio.h>
 int main()
 {
-	int i;
-	i = 10;
+	int i = 110;
 
 print:
 	printf("%d ", i);
