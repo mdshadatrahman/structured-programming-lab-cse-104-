@@ -11,7 +11,7 @@ first:
 	count++;
 	p++;
 	if (*p != '\0')
-	
+	{
 		goto first;
 	}
 	printf("%d", count);
